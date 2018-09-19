@@ -18,6 +18,6 @@ Inside the folder test have a scripts for test the API
 * Ruby
 
 #### First you need to run the ruby API
-```url-aggregator-api.rb```
+```ruby url-aggregator-api.rb```
 #### After you just need to run the API
 ```python app.py```
