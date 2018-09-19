@@ -22,7 +22,11 @@ The folder test have the scripts for test the API
 
 #### Running
 First you need to start the API with the following command:
-```python app.py```
+```
+python app.py
+```
 
 After you just need to run the test:
-```python test.py```
+```
+python test.py
+```
