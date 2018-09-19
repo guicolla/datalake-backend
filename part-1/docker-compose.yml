@@ -1,0 +1,14 @@
+api:
+   image: colla/api_mongodb_post
+   container_name: api
+   links:
+    - mongo
+   ports: 
+    - 5000:5000
+
+mongo:
+   image: colla/mongodb
+   container_name: mongo
+   ports:
+    - 27017:27017
+

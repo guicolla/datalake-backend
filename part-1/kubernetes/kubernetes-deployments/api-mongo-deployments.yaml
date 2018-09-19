@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api-mongo
+  labels:
+    app: api-mongo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: api-mongo
+  template:
+    metadata:
+      labels:
+        app: api-mongo
+    spec:
+      containers:
+      - name: api-mongo
+        image: colla/api_mongodb_post
+        ports:
+        - containerPort: 5000
+        resources:
+          requests:
+            memory: "128Mi"
+            cpu: "500m"
