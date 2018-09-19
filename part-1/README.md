@@ -15,10 +15,7 @@ If you have a kubernetes cluster you can deploy the application, the services an
 The folder test have the scripts for test the API
 #### Prerequisites
 * Mongodb
-* pymongo
-* flask_pymongo
-* flask
-* python-dateutil
+* Pip Requisites(pymongo, flask_pymongo, flask, python-dateutil)
 
 #### Running
 First you need to start the API with the following command:
